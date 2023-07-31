@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: satya
+    url: jdbc:h2:mem:testdb
+    username: Harsha
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+
+plan-api:
+ messages:
+  planSaveSucc: Plan Saved Successfully
+  planSaveFail: Plan Save failed
+  planUpdateSucc: Plan updated Sucesfuly
+  planUpdateFail: Plan update Failed
+  planDeleteSucc: Plan Deleted Succesfully
+  planDeleteFail: Plan Delete failed
+  planStatusChange: Plan Status Changed succesfully
+  planStatusChangeFail: Plan Status change Failed
